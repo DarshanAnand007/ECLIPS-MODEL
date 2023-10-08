@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+.btn{
+  height: 300px;
+  width: 2000px;
+}
+.gameBtn {
+  background: #1FFEC8;
+  background-image: -webkit-linear-gradient(top, #1FFEC8, #09362B);
+  background-image: -moz-linear-gradient(top, #1FFEC8, #09362B);
+  background-image: -ms-linear-gradient(top, #1FFEC8, #09362B);
+  background-image: -o-linear-gradient(top, #1FFEC8, #09362B);
+  background-image: -webkit-gradient(to bottom, #1FFEC8, #09362B);
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  color: #000000;
+  font-family: Courier New;
+  font-size: 60px;
+  font-weight: 900;
+  padding: 20px;
+  -webkit-box-shadow: inset 0 0 0 4px #000000;
+  -moz-box-shadow: inset 0 0 0 4px #000000;
+  box-shadow: inset 0 0 0 4px #000000;
+  text-shadow: 0 0 33px #000000;
+  border: solid #000000 0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  width: 50%;
+  height: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.gameBtn:hover {
+  border: solid #FFFFFF 1px;
+  background: #0F4639;
+  background-image: -webkit-linear-gradient(top, #0F4639, #1FFEC8);
+  background-image: -moz-linear-gradient(top, #0F4639, #1FFEC8);
+  background-image: -ms-linear-gradient(top, #0F4639, #1FFEC8);
+  background-image: -o-linear-gradient(top, #0F4639, #1FFEC8);
+  background-image: -webkit-gradient(to bottom, #0F4639, #1FFEC8);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.partition {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center; /* Center text inside the right div */
+  padding: 20px; /* Add some spacing */
+}
+
+.left {
+  flex: 1; /* Take up 1/2 of the container width */
+  padding: 10px;
+  margin-right: 50px;
+}
+
+.right {
+  flex: 1; /* Take up 1/2 of the container width */
+  padding: 10px;
+  margin: 50px;
+}
+
+h1 {
+  font-size: 100px; /* Increase font size */
+  color: rgb(255, 255, 255);
+  padding-bottom: 40px;
+  margin-bottom: 50px;
+}
+
+p {
+  font-size: 100px; /* Increase font size */
+  color: rgb(255, 255, 255);
+  text-align: justify; /* Justify text */
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
