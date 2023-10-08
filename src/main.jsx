@@ -21,7 +21,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <p>Lunar eclipses, when Earth's shadow covers the Moon, also do not happen every six months. They are tied to the same orbital dynamics. While there can be up to four lunar eclipses in a year, their visibility depends on where you are on Earth. These celestial events are fascinating, but their frequency is not as predictable as a regular six-month occurrence due to the intricate dance of the Earth, Moon, and Sun in space</p>
           <center>
               <button onClick={() => window.location.href = "https://nasa-game-1-0-yl2l-000.vercel.app"} class="gameBtn"> Play the Eclipse Quiz Game</button>
-            </center>          
+            </center>  
+              <input type="button" class="back_button" onclick="window.history.back()">
           </div>
       </div>
   </React.StrictMode>,
