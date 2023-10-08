@@ -8,7 +8,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
     <div class="partition">
         <div class="left">
-            <video src="/assets/eclipse.mp4" autoPlay controls width="100%" />
+            <video src="/assets/eclipse.mp4" autoPlay controls loop width="100%" />
           </div>
         <div class="right">
             <h1>About Eclipse</h1>
