@@ -25,7 +25,7 @@ body,
   border-radius: 16px;
   color: #000000;
   font-family: Courier New;
-  font-size: 60px;
+  font-size: 20px;
   font-weight: 900;
   padding: 20px;
   -webkit-box-shadow: inset 0 0 0 4px #000000;
@@ -76,14 +76,14 @@ body,
 }
 
 h1 {
-  font-size: 20px; /* Increase font size */
+  font-size: 30px; /* Increase font size */
   color: rgb(255, 255, 255);
   padding-bottom: 20px;
   margin-bottom: 25px;
 }
 
 p {
-  font-size: 15px; /* Increase font size */
+  font-size: 20px; /* Increase font size */
   color: rgb(255, 255, 255);
   text-align: justify; /* Justify text */
   margin-top: 20px;
