@@ -12,10 +12,7 @@ body,
   padding: 0;
   background-color: black;
 }
-.btn{
-  height: 300px;
-  width: 2000px;
-}
+
 .gameBtn {
   background: #1FFEC8;
   background-image: -webkit-linear-gradient(top, #1FFEC8, #09362B);
