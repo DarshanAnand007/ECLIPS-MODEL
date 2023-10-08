@@ -14,12 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             <h1>About Eclipse</h1>
             <p>Eclipse is an astronomical event that occurs when an astronomical object is temporarily obscured, either by passing into the shadow of another body or by having another body pass between it and the viewer.</p>
             <center>
-            <div class="btn">
               <button onClick={() => window.location.href = "https://www.example.com"} class="gameBtn"> Play the Eclipse Quiz Game</button>
-              <br />
-              <button onClick={() => window.location.href = "https://www.example.com"} class="gameBtn"> Play the Eclipse Quiz Game</button>
-            
-            </div>
             </center>          
           </div>
       </div>
