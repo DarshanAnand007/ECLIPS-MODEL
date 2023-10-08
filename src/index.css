@@ -96,7 +96,7 @@ input.back_button {
       border-radius: 40px;
       background-image: url("./assets/back_button.png");
       background-size: 35px;
-      opacity: 25%;
+      opacity: 100%;
       transition: opacity 0.5s ease;
     }
     .back_button:hover {
