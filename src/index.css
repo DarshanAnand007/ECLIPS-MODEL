@@ -40,10 +40,8 @@ body,
   display: inline-block;
   cursor: pointer;
   text-align: center;
-  width: 50%;
-  height: 100%;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .gameBtn:hover {
@@ -71,26 +69,26 @@ body,
 .left {
   flex: 1; /* Take up 1/2 of the container width */
   padding: 10px;
-  margin-right: 50px;
+  margin-right: 20px;
 }
 
 .right {
   flex: 1; /* Take up 1/2 of the container width */
   padding: 10px;
-  margin: 50px;
+  margin: 20px;
 }
 
 h1 {
-  font-size: 100px; /* Increase font size */
+  font-size: 20px; /* Increase font size */
   color: rgb(255, 255, 255);
-  padding-bottom: 40px;
-  margin-bottom: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 p {
-  font-size: 100px; /* Increase font size */
+  font-size: 15px; /* Increase font size */
   color: rgb(255, 255, 255);
   text-align: justify; /* Justify text */
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
